@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=DM+Serif+Display:ital@0;1&family=Gilda+Display&family=Playball&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.nav-col{
+    color: #000;
+}
+
+.container{
+    overflow: hidden;
+}
+
+.homepage{
+    background-image: url('./asset/hero_bg.jpg');
+    background-size: cover; 
+    background-position: top;
+    background-repeat: no-repeat;
+    /* color: #f8f8f8; */
+    border-radius: 10px;
+    height: auto !important;
+    container-type: inline-size;
+}
+
+.homepage h1{
+    font-family: 'DM Serif Text', serif;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-size: 9cqi;
+    color: #f8f9fa;
+}
+
+.homepage p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 2.5cqi;
+    font-style: italic;
+    color: #f8f9fa;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.outline{
+    border: 1.5px solid #f8f9fa;
+    border-radius: 5px;
+    padding: 5px 35px;
+    color: #000;
+    background-color: #f8f9fa;
+    font-size: 16px;
+    margin-left: 10px;
+    width: auto;
+    /* letter-spacing: 0.5px; */
+}
+
+.outline:hover{
+    background-color: #000;
+    border: 1.5px solid #000;
+    color: #f8f9fa;
+}
+
+.primary{
+    background-color: #000;
+    border: 1.5px solid #000;
+    border-radius: 5px;
+    color: #f8f9fa;
+    font-size: 16px;
+    width: auto;
+}
+
+.primary:hover{
+    background-color: #000;
+    border: 1.5px solid #000;
+    color: #f8f9fa;
+}
+
+.outline1{
+    border: 1.5px solid #000;
+    border-radius: 5px;
+    color: #000;
+    background-color: transparent;
+    font-size: 16px;
+    width: auto;
+}
+
+.outline1:hover{
+    background-color: #000;
+    border: 1.5px solid #000;
+    color: #f8f9fa;
+}
+
+/* .services h2{
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    letter-spacing: 0.5px;
+    color: #000;
+    text-transform: capitalize;
+    font-weight: bold;
+} */
+
+.service-head{
+    /* font-family: "Bebas Neue", sans-serif;
+    word-spacing: 2px;
+    letter-spacing: 0.5px; */
+
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    letter-spacing: 0.5px;
+    color: #000;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.feature-icon-small{
+    width: 2.5rem;
+    height: 2.5rem;
+    background: #000;
+}
+
+.service-type-head h4{
+    font-family: 'Nunito Sans', sans-serif;
+    /* font-family: "Bebas Neue", sans-serif;
+    word-spacing: 2px;
+    letter-spacing: 0.5px; */
+    /* font-style: italic; */
+}
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 180px 150px 200px 150px;
+    gap: 10px;
+}
+
+.heads{
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    letter-spacing: 0.5px;
+    color: #000;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+/* .heads>span{
+    border-bottom: 4px solid #d99c00;
+} */
+
+.product{
+    color: #f8f9fa;
+    border-radius: 5px;
+    padding: 25px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.prod1{
+    background-image: url(./asset/products/i1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.prod2{
+    background-image: url(./asset/products/i3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-row: span 2;
+}
+
+.prod3{
+    background-image: url(./asset/products/i8.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* height: 150px; */
+}
+
+.prod4{
+    background-image: url(./asset/products/i10.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* height: 200px; */
+}
+
+.prod5{
+    background-image: url(./asset/products/i13.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* height: 200px; */
+}
+
+.view-products{
+    background: #f8f9fa;
+    color: #000;
+    border: 1.5px solid #f8f9fa;
+    /* border-radius: 5px; */
+}
+
+.view-products:hover{
+    background: #000;
+    color: #f8f9fa;
+    border: 1.5px solid #000;
+}
+
+.product h1{
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 1px;
+}
+
+/* .carousel-item{
+    display: flex;
+    flex-direction: row;
+} */
+
+.carousel-item img{
+    object-fit: cover;
+    object-position: center;
+}
+
+/* .career-page{
+    background: #000;
+} */
+
+.career-pg{
+    background: #000;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 80px;
+    color: #f8f9fa;
+}
+
+.main-heading{
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    letter-spacing: 0.5px;
+    color: #f8f9fa;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.content{
+    font-size: 18px;
+    font-family: 'Nunito Sans', sans-serif;
+    flex-wrap: wrap;
+}
+
+.head{
+    display: flex;
+    flex-direction: column;
+}
+
+.profile{
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+}
+
+.profile>img{
+    border-radius: 50%;
+    border: 2px solid #f8f9fa;
+}
+
+/* @media (min-width:800px){
+    .products{
+        grid-template-columns: 1fr;
+        grid-template-rows: 180px 150px 200px 150px;
+    }
+} */
