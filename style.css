@@ -3,6 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=DM+Serif+Display:ital@0;1&family=Gilda+Display&family=Playball&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Tenor+Sans&family=Yantramanav:wght@100;300;400;500;700;900&display=swap');
 
 * {
     margin: 0;
@@ -130,10 +133,6 @@ html, body {
 
 .service-type-head h4{
     font-family: 'Nunito Sans', sans-serif;
-    /* font-family: "Bebas Neue", sans-serif;
-    word-spacing: 2px;
-    letter-spacing: 0.5px; */
-    /* font-style: italic; */
 }
 
 .products{
@@ -189,11 +188,10 @@ html, body {
     background: #000;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-    grid-auto-rows: auto;
     column-gap: 80px;
-    row-gap: 20px;
+    row-gap: 45px;
     color: #f8f9fa;
+    justify-self: start;
 }
 
 .main-heading{
@@ -205,15 +203,10 @@ html, body {
     font-weight: bold;
 }
 
-.content{
-    font-size: 16px;
-    font-family: 'Nunito Sans', sans-serif;
-    flex-wrap: wrap;
-}
-
 .head{
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .profile{
@@ -227,8 +220,9 @@ html, body {
 }
 
 .profile-desc h4{
-    font-family: "Playfair Display", serif;
-    letter-spacing: 0.5px;
+    /* font-family: "Playfair Display", serif; */
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 1px;
 }
 
 .profile-desc p{
@@ -239,8 +233,75 @@ html, body {
     font-family: "Dancing Script", cursive;
     font-size: 20px;
     color: #f8f9fa;
-    /* text-transform: capitalize; */
     letter-spacing: 1px;
+    border-left: 2px solid #f8f9fa;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.check_vacancy{
+    text-decoration: none;
+    color: #f8f9fa;
+    text-transform: capitalize;
+}
+
+.check_vacancy>span{
+    border-bottom: 1px solid #f8f9fa;
+    margin-right: 8px;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.5px;
+    /* font-style: italic; */
+}
+
+.alignmnet{
+    height: 40px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1.5px solid #f8f9fa;
+    background-color: rgba(255, 255, 255, 0.3);
+    align-items: center;
+    margin-right: 30px;
+}
+
+.email{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    padding-left: 20px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #f8f9fa;
+    text-align: left;
+}
+
+.email_sec{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.email_btn{
+    background: #f8f9fa;
+    color: #000;
+    border-radius: 3px;
+    font-family: "Nanum Gothic", sans-serif;
+    /* font-weight: 400; */
+    font-style: normal;
+    letter-spacing: 0.5px;
+}
+
+.content{
+    font-family: "Tenor Sans", sans-serif;
+    flex-wrap: wrap;
+}
+
+.content>p{
+    font-size: 16px;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 /* @media (min-width:800px){
