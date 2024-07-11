@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=DM+Serif+Display:ital@0;1&family=Gilda+Display&family=Playball&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
 * {
     margin: 0;
@@ -151,10 +152,6 @@ html, body {
     font-weight: bold;
 }
 
-/* .heads>span{
-    border-bottom: 4px solid #d99c00;
-} */
-
 .product{
     color: #f8f9fa;
     border-radius: 5px;
@@ -163,45 +160,6 @@ html, body {
     flex-direction: column;
     justify-content: space-between;
     align-items: start;
-}
-
-.prod1{
-    background-image: url(./asset/products/i1.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.prod2{
-    background-image: url(./asset/products/i3.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    grid-row: span 2;
-}
-
-.prod3{
-    background-image: url(./asset/products/i8.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    /* height: 150px; */
-}
-
-.prod4{
-    background-image: url(./asset/products/i10.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    /* height: 200px; */
-}
-
-.prod5{
-    background-image: url(./asset/products/i13.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    /* height: 200px; */
 }
 
 .view-products{
@@ -222,25 +180,19 @@ html, body {
     letter-spacing: 1px;
 }
 
-/* .carousel-item{
-    display: flex;
-    flex-direction: row;
-} */
-
 .carousel-item img{
     object-fit: cover;
     object-position: center;
 }
 
-/* .career-page{
-    background: #000;
-} */
-
 .career-pg{
     background: #000;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-auto-rows: auto;
     column-gap: 80px;
+    row-gap: 20px;
     color: #f8f9fa;
 }
 
@@ -254,7 +206,7 @@ html, body {
 }
 
 .content{
-    font-size: 18px;
+    font-size: 16px;
     font-family: 'Nunito Sans', sans-serif;
     flex-wrap: wrap;
 }
@@ -272,6 +224,23 @@ html, body {
 .profile>img{
     border-radius: 50%;
     border: 2px solid #f8f9fa;
+}
+
+.profile-desc h4{
+    font-family: "Playfair Display", serif;
+    letter-spacing: 0.5px;
+}
+
+.profile-desc p{
+    color: grey;
+}
+
+.head>p{
+    font-family: "Dancing Script", cursive;
+    font-size: 20px;
+    color: #f8f9fa;
+    /* text-transform: capitalize; */
+    letter-spacing: 1px;
 }
 
 /* @media (min-width:800px){
