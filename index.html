@@ -10,7 +10,8 @@
 
 <body id="Shreyal">
 
-    <nav class="navbar navbar-expand-md static-top bg-white py-4">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md fixed-top bg-white py-4" id="navBar">
         <div class="container align-items-center">
             <a href="#Shreyal" class= "mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
                 <img src="./asset/logo.png" alt="logo" height="28px">
@@ -18,14 +19,14 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="offcanvas offcanvas-end align-items-end" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
                 <div class="offcanvas-header mt-2">
                     <a href="#Shreyal" class="mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
                         <img src="./asset/logo.png" alt="logo" height="25px">
                     </a>
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
-                <div class="offcanvas-body">
+                <div class="offcanvas-body justify-content-end">
                     <ul class="navbar-nav">
                         <li class="nav-item me-4"><a href="#home" class="nav-link nav-col" aria-current="page">Home</a></li>
                         <li class="nav-item dropdown me-4">
@@ -49,94 +50,26 @@
         </div>
     </nav>
 
-    <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" aria-label="Offcanvas navbar large">
-        <div class="container">
-            <a class="navbar-brand" href="#">Responsive offcanvas navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Offcanvas</h5>
-              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li>
-                      <hr class="dropdown-divider">
-                    </li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  </ul>
-                </li>
-              </ul>
-              <!-- <form class="d-flex mt-3 mt-lg-0" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-              </form>
-            </div>
-          </div>
-        </div>
-    </nav> -->
-
-    <!-- Navbar -->
-    <!-- <div class="container">
-        <header class="d-flex flex-wrap py-4 mb-4">
-            <a href="#Shreyal" class="d-flex align-items-center mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-                <img src="./asset/logo.png" alt="logo" height="35px">
-            </a>
-    
-            <ul class="nav nav-tabs">
-                <li class="nav-item"><a href="#home" class="nav-link nav-col" aria-current="page">Home</a></li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle nav-col" data-bs-toggle="dropdown" href="#products" role="button" aria-expanded="false">Products</a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Product Type 1</a></li>
-                        <li><a class="dropdown-item" href="#">Product Type 2</a></li>
-                        <li><a class="dropdown-item" href="#">Product Type 3</a></li>
-                        <li><a class="dropdown-item" href="#">Product Type 4</a></li>
-                        <li><a class="dropdown-item" href="#">Product Type 6</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">More Details : Contact Us</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item"><a href="#services" class="nav-link nav-col">Services</a></li>
-                <li class="nav-item"><a href="#about" class="nav-link nav-col">About</a></li>
-                <li class="nav-item"><a href="#" class="nav-link nav-col">Contact Us</a></li>
-            </ul>
-        </header>
-    </div> -->
-
     <!-- Homepage -->
-    <div class="container homepage" id="home">
-        <div class="row flex-lg-row py-5 px-5 flex-wrap">
-                <!-- <div class="col-10 col-sm-8 col-lg-6">
-                    <img src="./asset/hero_img.jpg" class="d-block mx-lg-auto img-fluid rounded" alt="Bootstrap Themes" width="550" loading="lazy">
-                </div> -->
-            <!-- <div> -->
-                <p class="greet-txt">welcome to</p>
-                <h1 class="lh-1 mb-4">Shreyal Industries</h1>
-                <p class="lead mb-5 quote">healing starts with right supplies</p>
-                <button type="button" class="btn px-5 outline">About Us</button>
-                <!-- <p class="mb-5 col-10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p> -->
-                <!-- <div class="d-grid gap-2 d-md-flex mb-5">
-                    <button type="button" class="btn primary btn-lg px-4 me-md-3">Get Started</button>
-                    <button type="button" class="btn outline btn-lg px-4">Contact Us</button>
-                </div> -->
-            <!-- </div> -->
+    <div class="homepage-div">
+        <div class="container homepage" id="home">
+            <div class="row flex-lg-row px-5 py-5 flex-wrap">
+                    <!-- <div class="col-10 col-sm-8 col-lg-6">
+                        <img src="./asset/hero_img.jpg" class="d-block mx-lg-auto img-fluid rounded" alt="Bootstrap Themes" width="550" loading="lazy">
+                    </div> -->
+                <!-- <div> -->
+                    <p class="greet-txt">welcome to</p>
+                    <h1 class="lh-1 mb-4">Shreyal Industries</h1>
+                    <p class="lead mb-5 quote">healing starts with right supplies</p>
+                    <button type="button" class="btn px-5 outline">About Us</button>
+                    <!-- <p class="mb-5 col-10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p> -->
+                    <!-- <div class="d-grid gap-2 d-md-flex mb-5">
+                        <button type="button" class="btn primary btn-lg px-4 me-md-3">Get Started</button>
+                        <button type="button" class="btn outline btn-lg px-4">Contact Us</button>
+                    </div> -->
+                <!-- </div> -->
+            </div>
         </div>
     </div>
 
@@ -456,5 +389,17 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+        var navBar = document.getElementById('navBar');
+        window.onscroll = function() {
+            if (window.pageYOffset > 22) {
+                navBar.classList.add('scrolled');
+                // navBar.classList.add('shadow');
+            } else {
+                navBar.classList.remove('scrolled');
+                // navBar.classList.remove('shadow');
+            }
+        }
+    </script>
 </body>
 </html>

@@ -18,6 +18,16 @@ html, body {
     width: 100%;
 }
 
+nav{
+    /* box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1); */
+    /* transition: box-shadow 0.2s ease-in-out; */
+    z-index: 1000;
+}
+
+nav.scrolled{
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
 .nav-col{
     color: #000;
     font-size: 16px;
@@ -28,6 +38,10 @@ html, body {
     overflow: hidden;
 }
 
+.homepage-div{
+    margin-top: 95px;
+}
+
 .homepage{
     background-image: url('./asset/hero_bg.jpg');
     background-size: cover; 
@@ -35,7 +49,6 @@ html, body {
     background-repeat: no-repeat;
     height: auto !important;
     container-type: inline-size;
-    /* margin-top: 50px; */
 }
 
 .greet-txt{
@@ -49,7 +62,7 @@ html, body {
     font-family: 'DM Serif Text', serif;
     letter-spacing: 1px;
     text-transform: capitalize;
-    font-size: 8cqi;
+    font-size: 8.5cqi;
     color: #f8f9fa;
 }
 
