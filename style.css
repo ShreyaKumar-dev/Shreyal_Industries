@@ -19,13 +19,11 @@ html, body {
 }
 
 nav{
-    /* box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1); */
-    /* transition: box-shadow 0.2s ease-in-out; */
     z-index: 1000;
 }
 
 nav.scrolled{
-    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
 }
 
 .nav-col{
@@ -38,10 +36,6 @@ nav.scrolled{
     overflow: hidden;
 }
 
-.homepage-div{
-    margin-top: 95px;
-}
-
 .homepage{
     background-image: url('./asset/hero_bg.jpg');
     background-size: cover; 
@@ -49,13 +43,15 @@ nav.scrolled{
     background-repeat: no-repeat;
     height: auto !important;
     container-type: inline-size;
+    margin-top: 95px;
 }
 
 .greet-txt{
     font-family: "Bebas Neue", sans-serif;
     letter-spacing: 1px;
-    font-size: 2.5cqi;
+    font-size: 3.5cqi;
     color: #f8f9fa;
+    padding-left: 22px;
 }
 
 .homepage h1{
@@ -68,8 +64,7 @@ nav.scrolled{
 
 .quote{
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 2.5cqi;
-    /* font-style: italic; */
+    font-size: 3cqi;
     color: #f8f9fa;
     text-transform: capitalize;
     letter-spacing: 1px;
@@ -78,18 +73,21 @@ nav.scrolled{
 
 .outline{
     border-radius: 3px;
-    color: #2a2a2a;
-    background-color: #f8f9fa;
+    color: #f8f9fa;
+    background-color: #000;
     font-size: 16px;
     margin-left: 10px;
-    font-family: 'Nunito Sans', sans-serif;
+    /* font-family: 'Nunito Sans', sans-serif; */
+    /* font-family: "Nanum Gothic", sans-serif; */
+    font-family: "Tenor Sans", sans-serif;
     letter-spacing: 0.5px;
     width: auto;
 }
 
 .outline:hover{
-    background-color: #000;
-    color: #f8f9fa;
+    /* background-color: #f8f9fa; */
+    color: #000;
+    border: 0.5px solid #000;
 }
 
 .primary{
@@ -102,9 +100,9 @@ nav.scrolled{
 }
 
 .primary:hover{
-    background-color: #000;
+    /* background-color: #000; */
     border: 1.5px solid #000;
-    color: #f8f9fa;
+    color: #000;
 }
 
 .outline1{
@@ -193,7 +191,7 @@ nav.scrolled{
 .career-pg{
     background: #000;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
     column-gap: 80px;
     row-gap: 45px;
     color: #f8f9fa;
@@ -241,7 +239,7 @@ nav.scrolled{
     letter-spacing: 1px;
     border-left: 2px solid #f8f9fa;
     padding-left: 20px;
-    margin: 0;
+    margin-top: 5px;
 }
 
 .check_vacancy{
@@ -257,7 +255,6 @@ nav.scrolled{
     font-weight: 400;
     font-style: normal;
     letter-spacing: 0.5px;
-    /* font-style: italic; */
 }
 
 .alignmnet{
@@ -298,6 +295,11 @@ nav.scrolled{
     letter-spacing: 0.5px;
 }
 
+.email_btn:hover{
+    color: #f8f9fa;
+    border: 0.5px solid #f8f9fa;
+}
+
 .content{
     font-family: "Tenor Sans", sans-serif;
     flex-wrap: wrap;
@@ -309,7 +311,6 @@ nav.scrolled{
 }
 
 .contact-details{
-    /* font-family: "Bebas Neue", sans-serif; */
     font-family: 'Nunito Sans', sans-serif;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -390,9 +391,34 @@ nav.scrolled{
     border-bottom: 1.5px solid #f8f9fa;
 }
 
-/* @media (min-width:800px){
-    .products{
+@media screen and (max-width:800px){
+    .career-pg{
         grid-template-columns: 1fr;
-        grid-template-rows: 180px 150px 200px 150px;
     }
-} */
+
+    .main-heading{
+        font-size: 40px;
+    }
+
+    .profile{
+        grid-template-columns: 0.4fr 1fr;
+    }
+
+    .head>p{
+        margin-top: 15px;
+    }
+
+    .greet-txt{
+        font-size: 30px;
+        padding-left: 18px;
+    }
+
+    .homepage h1{
+        font-size: 65px;
+    }
+
+    .quote{
+        font-size: 20px;
+        font-weight: 500;
+    }
+}
