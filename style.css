@@ -31,45 +31,48 @@ html, body {
     background-size: cover; 
     background-position: top;
     background-repeat: no-repeat;
-    /* color: #f8f8f8; */
-    border-radius: 10px;
     height: auto !important;
     container-type: inline-size;
+}
+
+.greet-txt{
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 1px;
+    font-size: 2.5cqi;
+    color: #f8f9fa;
 }
 
 .homepage h1{
     font-family: 'DM Serif Text', serif;
     letter-spacing: 1px;
     text-transform: capitalize;
-    font-size: 9cqi;
+    font-size: 8cqi;
     color: #f8f9fa;
 }
 
-.homepage p{
+.quote{
     font-family: 'Nunito Sans', sans-serif;
     font-size: 2.5cqi;
-    font-style: italic;
+    /* font-style: italic; */
     color: #f8f9fa;
     text-transform: capitalize;
     letter-spacing: 1px;
-    font-weight: 500;
+    margin: 0;
 }
 
 .outline{
-    border: 1.5px solid #f8f9fa;
-    border-radius: 5px;
-    padding: 5px 35px;
-    color: #000;
+    border-radius: 3px;
+    color: #2a2a2a;
     background-color: #f8f9fa;
     font-size: 16px;
     margin-left: 10px;
+    font-family: 'Nunito Sans', sans-serif;
+    letter-spacing: 0.5px;
     width: auto;
-    /* letter-spacing: 0.5px; */
 }
 
 .outline:hover{
     background-color: #000;
-    border: 1.5px solid #000;
     color: #f8f9fa;
 }
 
@@ -103,20 +106,7 @@ html, body {
     color: #f8f9fa;
 }
 
-/* .services h2{
-    font-family: "Playfair Display", serif;
-    font-style: italic;
-    letter-spacing: 0.5px;
-    color: #000;
-    text-transform: capitalize;
-    font-weight: bold;
-} */
-
 .service-head{
-    /* font-family: "Bebas Neue", sans-serif;
-    word-spacing: 2px;
-    letter-spacing: 0.5px; */
-
     font-family: "Playfair Display", serif;
     font-style: italic;
     letter-spacing: 0.5px;
@@ -328,6 +318,14 @@ html, body {
     width: 150px;
 }
 
+.enquiry{
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between;
+    font-style: italic;
+    flex-wrap: wrap;
+}
+
 .map{
     border: 0;
     border-radius: 10px;
@@ -340,11 +338,42 @@ html, body {
 .footer-sec{
     background: #000;
     color: #f8f9fa;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 .footer-email{
     border-radius: 2px;
 }
+
+.footer-nav-sec{
+    color: #bcbbbb;
+    font-size: 15px;
+}
+
+.footer-nav-sec:hover{
+    color: #f8f9fa;
+    text-decoration: none;
+}
+
+.footer-email{
+    font-family: "Tenor Sans", sans-serif;
+}
+
+.newsletter-content{
+    color: #bcbbbb;
+    font-size: 15px;
+}
+
+.copyright{
+    font-family: 'Nunito Sans', sans-serif;
+    letter-spacing: 0.5px;
+    word-spacing: 0.5px;
+}
+
+.footer-header>span{
+    border-bottom: 1.5px solid #f8f9fa;
+}
+
 /* @media (min-width:800px){
     .products{
         grid-template-columns: 1fr;

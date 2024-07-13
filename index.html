@@ -44,9 +44,10 @@
                     <img src="./asset/hero_img.jpg" class="d-block mx-lg-auto img-fluid rounded" alt="Bootstrap Themes" width="550" loading="lazy">
                 </div> -->
             <!-- <div> -->
-                <h1 class="display-5 lh-1 mb-4">Shreyal Industries</h1>
-                <p class="lead mb-5">healing starts with right supplies</p>
-                <button type="button" class="col-lg-2 col-sm-2 outline">About Us</button>
+                <p class="greet-txt">welcome to</p>
+                <h1 class="lh-1 mb-4">Shreyal Industries</h1>
+                <p class="lead mb-5 quote">healing starts with right supplies</p>
+                <button type="button" class="btn px-5 outline">About Us</button>
                 <!-- <p class="mb-5 col-10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p> -->
                 <!-- <div class="d-grid gap-2 d-md-flex mb-5">
@@ -123,9 +124,7 @@
     <div class="container mb-5" id="products">
         <h2 class="text-body-emphasis heads mb-3"><span>Products curated for you</span></h2>
         <p class="text-body-secondary pb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute 
-            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
         <div class="carousel mb-5 " data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -225,24 +224,24 @@
                 </div>
             </div>
             <div class="content">
-                <h5 class="mb-3 career-heading">Interested in becoming part of the Shreyal Industries community?</h5>
+                <h5 class="mb-3">Interested in becoming part of the Shreyal Industries community?</h5>
                 <p>Lorem Ipsum has been the industry's standard dummy text ever sincethe 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
             </div>
             <div class="content">
-                <h5 class="mb-3 career-heading">Seasrching for jobs?</h5>
+                <h5 class="mb-3">Seasrching for jobs?</h5>
                 <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.</p>
                 <p><a href="#" class="check_vacancy"><span>check vacancy</span> <img src="./asset/arrow_white.png" alt="white arrow" height="20px"></a></p>
             </div>
             <div class="content">
-                <h5 class="mb-3 career-heading">Know more about our recruitement process.</h5>
+                <h5 class="mb-3">Know more about our recruitement process.</h5>
                 <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.</p>
-                <p><a href="./sample-pdf-file.pdf" class="check_vacancy"><span>download brochure</span> <img src="./asset/arrow_white.png" alt="white arrow" height="20px"></a></p>
+                <p><a href="./sample-pdf-file.pdf" class="check_vacancy" download><span>download brochure</span> <img src="./asset/arrow_white.png" alt="white arrow" height="20px"></a></p>
             </div>
             <div class="content">
                 <!-- <p>Have any queries?</p>
                 <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet</p>
                 <p><a href="#" class="contact_hr"><span>contact HR</span> <img src="./asset/arrow_white.png" alt="white arrow" height="20px"></a></p> -->
-                <h5 class="mb-4 career-heading">Keep yourself updated with upcoming vacancies.</h5>
+                <h5 class="mb-4">Keep yourself updated with upcoming vacancies.</h5>
                 <form>
                     <div class="email_sec">
                         <div class="alignmnet">
@@ -257,7 +256,7 @@
 
     <!-- Contact Us -->
     <div class="container py-5">
-        <h2 class="text-body-emphasis heads text-center mb-3"><span>Contact Us</span></h2>
+        <h2 class="text-body-emphasis heads text-center my-3"><span>Contact Us</span></h2>
         <p class="text-body-secondary text-center mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
@@ -269,16 +268,10 @@
                 </div>
                 <div class="contact-info">
                     <h5 class="text-body-emphasis contact-details py-3">contact detail</h5>
-                    <!-- <p class="text-body-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute 
-                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    </p> -->
                     <div class="contact-item mb-4">
                         <p>123 Lorem Ipsum, Dolor Sit Amet, Consectetur - 123456</p>
                         <p>+91 1234567890</p>
                         <p>hello@shreyal.org</p>
-                        <p>10:00 - 17:00</p>
                     </div>
                     <div class="social-contact">
                         <a href="#"><img src="./asset/social_media/facebook.png" alt="facebook" height="20px"></a>
@@ -306,9 +299,12 @@
                         </div>
                         <div class="mb-3">
                             <label for="message" class="form-label text-body-secondary">Message</label>
-                            <textarea class="form-control" id="message" rows="8" required></textarea>
+                            <textarea class="form-control" id="message" rows="7" required></textarea>
                         </div>
-                        <button type="submit" class="btn primary px-5">Send Message</button>
+                        <div class="enquiry">
+                            <p>Available for enquiry from 10:00 to 17:00</p>
+                            <button type="submit" class="btn primary px-5">Send Message</button>
+                        </div>
                     </form>
                 </div>
             </div>
@@ -319,44 +315,42 @@
     <div class="footer-sec mt-5">
         <div class="container">
             <footer class="pt-5">
-                <div class="row">
+                <div class="row g-4">
                     <div class="col-6 col-md-2 mb-3">
-                        <h5>Section</h5>
-                        <ul class="nav flex-column">
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                        <h5 class="footer-header"><span>Comp</span>any</h5>
+                        <ul class="nav flex-column pt-3">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-nav-sec">About Us</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-nav-sec">Our Services</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-nav-sec">Privacy Policy</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-nav-sec">Terms & Conditions</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-nav-sec">Contact Us</a></li>
                         </ul>
                     </div>
     
                     <div class="col-6 col-md-2 mb-3">
-                        <h5>Section</h5>
-                        <ul class="nav flex-column">
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                        <h5 class="footer-header"><span>Prod</span>ucts</h5>
+                        <ul class="nav flex-column pt-3">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-nav-sec">Product Type 1</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-nav-sec">Product Type 2</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-nav-sec">Product Type 3</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-nav-sec">Product Type 4</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-nav-sec">Product Type 5</a></li>
                         </ul>
                     </div>
     
                     <div class="col-6 col-md-2 mb-3">
-                        <h5>Section</h5>
-                        <ul class="nav flex-column">
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                        <h5 class="footer-header"><span>Care</span>er</h5>
+                        <ul class="nav flex-column pt-3">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-nav-sec">Check Vacancy</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-nav-sec">Recruitement Detail</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-nav-sec">FAQs</a></li>
                         </ul>
                     </div>
     
                     <div class="col-md-5 offset-md-1">
                         <form>
-                            <h5>Subscribe to our newsletter</h5>
-                            <p>Monthly digest of what's new and exciting from us.</p>
+                            <h5 class="content">Subscribe to our newsletter</h5>
+                            <p class="newsletter-content">Monthly digest of what's new and exciting from us.</p>
                             <div class="d-flex flex-column flex-sm-row w-100 gap-2">
                                 <label for="newsletter1" class="visually-hidden">Email address</label>
                                 <input id="newsletter1" type="text" class="form-control footer-email" placeholder="Email address">
@@ -367,11 +361,12 @@
                 </div>
     
                 <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-                    <p>© 2024 Company, Inc. All rights reserved.</p>
+                    <p class="copyright">© 2024 Shreyal Industries, Inc. All rights reserved</p>
                     <ul class="list-unstyled d-flex">
-                        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
-                        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
-                        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+                        <li class="ms-3"><a class="link-body-emphasis" href="#"><img src="./asset/footer-links/facebook.png" alt="facebook" height="20px"></a></li>
+                        <li class="ms-3"><a class="link-body-emphasis" href="#"><img src="./asset/footer-links/instagram.png" alt="instagram" height="20px"></a></li>
+                        <li class="ms-3"><a class="link-body-emphasis" href="#"><img src="./asset/footer-links/twitter.png" alt="twitter" height="20px"></a></li>
+                        <li class="ms-3"><a class="link-body-emphasis" href="#"><img src="./asset/footer-links/linkedin.png" alt="linkedin" height="20px"></a></li>
                     </ul>
                 </div>
             </footer>
