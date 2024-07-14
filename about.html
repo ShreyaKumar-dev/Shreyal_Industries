@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="./aboutstyle.css">
+    <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
 <body>
@@ -28,7 +29,7 @@
                     <ul class="navbar-nav">
                         <li class="nav-item me-4"><a href="#home" class="nav-link nav-col" aria-current="page">Home</a></li>
                         <li class="nav-item dropdown me-4">
-                            <a class="nav-link dropdown-toggle nav-col" data-bs-toggle="dropdown" href="#products" role="button" aria-expanded="false">Products</a>
+                            <a class="nav-link dropdown-toggle nav-col" data-bs-toggle="dropdown" href="#products" aria-expanded="false">Products</a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">Product Type 1</a></li>
                                 <li><a class="dropdown-item" href="#">Product Type 2</a></li>
@@ -46,7 +47,181 @@
         </div>
     </nav>
 
+    <!-- Vedio presenting company environment-->
+    <div class="company-vedio mb-5">
+        <div class="container">
+            <video playsinline src="./asset/Office_Environment.mp4" autoplay loop muted class="company-env"></video>
+            <p>vedio by <a href="https://youtube.com/@designoffices2081?si=qlDtKBnzBZ7oX-5G">Design Offices</a></p>
+        </div>
+    </div>
+
+    <!-- Career Page -->
+    <div class="container career-page pt-5 mb-3" id="career-page">
+        <div class="career-pg px-5 py-5">
+            <div>
+                <h1 class="main-heading">work with us</h1>
+            </div>
+            <div>
+                <div class="head"> <!-- flex: column -->
+                    <div class="profile"> <!-- flex: row -->
+                        <img src="./asset/head_profile_pic.jpg" alt="HR profile image" height="60px" width="60px">
+                        <div class="profile-desc">
+                            <h4>Louisa Bezoz</h4>
+                            <p>HR Manager</p>
+                        </div>
+                    </div>
+                    <p class="lead">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet.</p>
+                </div>
+            </div>
+            <div class="content">
+                <h5 class="mb-3">Interested in becoming part of the Shreyal Industries community?</h5>
+                <p>Lorem Ipsum has been the industry's standard dummy text ever sincethe 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+            <div class="content">
+                <h5 class="mb-3">Seasrching for jobs?</h5>
+                <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.</p>
+                <p><a href="#" class="check_vacancy"><span>check vacancy</span> <img src="./asset/arrow_white.png" alt="white arrow" height="20px"></a></p>
+            </div>
+            <div class="content">
+                <h5 class="mb-3">Know more about our recruitement process.</h5>
+                <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.</p>
+                <p><a href="./sample-pdf-file.pdf" class="check_vacancy" download><span>download brochure</span> <img src="./asset/arrow_white.png" alt="white arrow" height="20px"></a></p>
+            </div>
+            <div class="content">
+                <!-- <p>Have any queries?</p>
+                <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet</p>
+                <p><a href="#" class="contact_hr"><span>contact HR</span> <img src="./asset/arrow_white.png" alt="white arrow" height="20px"></a></p> -->
+                <h5 class="mb-4">Keep yourself updated with upcoming vacancies.</h5>
+                <form>
+                    <div class="d-flex flex-column flex-sm-row w-100 gap-2 email_sec">
+                        <div class="alignmnet">
+                            <input type="email" placeholder="Enter your email" required class="email" id="email">
+                        </div>
+                        <button type="button" class="btn px-4 email_btn">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Us -->
+    <div class="container py-5" id="contact-us">
+        <h2 class="text-body-emphasis heads text-center my-3"><span>Contact Us</span></h2>
+        <p class="text-body-secondary text-center mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <div class="row g-5">
+            <div class="col-lg-6">
+                <div class="mb-4">
+                    <h5 class="text-body-emphasis contact-details py-3">where to find us</h5>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.855855263249!2d73.05595017532556!3d19.026072382168238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c243f321e88b%3A0x56308b5ec1a6eeb8!2sKharghar%20Railway%20Station%20Complex%2C%20Sector%202%2C%20Kharghar%2C%20Navi%20Mumbai%2C%20Maharashtra%20410210!5e0!3m2!1sen!2sin!4v1720817031978!5m2!1sen!2sin" width=550" height="300" class="map" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="contact-info">
+                    <h5 class="text-body-emphasis contact-details py-3">contact detail</h5>
+                    <div class="contact-item mb-4">
+                        <p>123 Lorem Ipsum, Dolor Sit Amet, Consectetur - 123456</p>
+                        <p>+91 1234567890</p>
+                        <p>hello@shreyal.org</p>
+                    </div>
+                    <div class="social-contact">
+                        <a href="#"><img src="./asset/social_media/facebook.png" alt="facebook" height="20px"></a>
+                        <a href="#"><img src="./asset/social_media/instagram.png" alt="instagram" height="20px"></a>
+                        <a href="#"><img src="./asset/social_media/twitter.png" alt="twitter" height="20px"></a>
+                        <a href="#"><img src="./asset/social_media/linkedin.png" alt="linkedin" height="20px"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="contact-form">
+                    <h5 class="text-body-emphasis contact-details py-4">get a quote</h5>
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label text-body-secondary">Name</label>
+                            <input type="text" class="form-control" id="name" class="input-txt" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label text-body-secondary">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="subject" class="form-label text-body-secondary">Subject</label>
+                            <input type="text" class="form-control" id="subject" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label text-body-secondary">Message</label>
+                            <textarea class="form-control" id="message" rows="7" required></textarea>
+                        </div>
+                        <div class="enquiry">
+                            <p>Available for enquiry from 10:00 to 17:00</p>
+                            <button type="submit" class="btn primary px-5">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer-sec mt-5">
+        <div class="container">
+            <footer class="pt-5">
+                <div class="row g-4">
+                    <div class="col-6 col-md-2 mb-3">
+                        <h5 class="footer-header"><span>Comp</span>any</h5>
+                        <ul class="nav flex-column pt-3">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-nav-sec">About Us</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-nav-sec">Our Services</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-nav-sec">Privacy Policy</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-nav-sec">Terms & Conditions</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-nav-sec">Contact Us</a></li>
+                        </ul>
+                    </div>
     
+                    <div class="col-6 col-md-2 mb-3">
+                        <h5 class="footer-header"><span>Prod</span>ucts</h5>
+                        <ul class="nav flex-column pt-3">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-nav-sec">Product Type 1</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-nav-sec">Product Type 2</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-nav-sec">Product Type 3</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-nav-sec">Product Type 4</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-nav-sec">Product Type 5</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="col-6 col-md-2 mb-3">
+                        <h5 class="footer-header"><span>Care</span>er</h5>
+                        <ul class="nav flex-column pt-3">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-nav-sec">Check Vacancy</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-nav-sec">Recruitement Detail</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-nav-sec">FAQs</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="col-md-5 offset-md-1">
+                        <form>
+                            <h5 class="content">Subscribe to our newsletter</h5>
+                            <p class="newsletter-content">Monthly digest of what's new and exciting from us.</p>
+                            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                                <label for="newsletter1" class="visually-hidden">Email address</label>
+                                <input id="newsletter1" type="text" class="form-control footer-email" placeholder="Email address">
+                                <button class="btn px-4 email_btn" type="button">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+    
+                <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                    <p class="copyright">© 2024 Shreyal Industries, Inc. All rights reserved</p>
+                    <ul class="list-unstyled d-flex">
+                        <li class="ms-3"><a class="link-body-emphasis" href="#"><img src="./asset/footer-links/facebook.png" alt="facebook" height="20px"></a></li>
+                        <li class="ms-3"><a class="link-body-emphasis" href="#"><img src="./asset/footer-links/instagram.png" alt="instagram" height="20px"></a></li>
+                        <li class="ms-3"><a class="link-body-emphasis" href="#"><img src="./asset/footer-links/twitter.png" alt="twitter" height="20px"></a></li>
+                        <li class="ms-3"><a class="link-body-emphasis" href="#"><img src="./asset/footer-links/linkedin.png" alt="linkedin" height="20px"></a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script>
