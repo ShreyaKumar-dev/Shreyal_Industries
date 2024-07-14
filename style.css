@@ -284,7 +284,6 @@ nav.scrolled{
     display: flex;
     flex-direction: row;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 .email_btn{
@@ -426,6 +425,9 @@ nav.scrolled{
     }
 
     .email_sec{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
         row-gap: 15px;
     }
 }
