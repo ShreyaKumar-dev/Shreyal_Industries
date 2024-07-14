@@ -280,12 +280,6 @@ nav.scrolled{
     text-align: left;
 }
 
-/* .email_sec{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-} */
-
 .email_btn{
     background: #f8f9fa;
     color: #000;
@@ -423,11 +417,4 @@ nav.scrolled{
         font-weight: 500;
         padding: 0 auto;
     }
-
-    /* .email_sec{
-        display: flex;
-        flex-direction: column;
-        align-items: start;
-        row-gap: 15px;
-    } */
 }
