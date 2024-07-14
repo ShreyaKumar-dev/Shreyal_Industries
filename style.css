@@ -410,15 +410,17 @@ nav.scrolled{
 
     .greet-txt{
         font-size: 30px;
-        padding-left: 18px;
+        padding-left: 10px;
     }
 
     .homepage h1{
         font-size: 65px;
+        padding-left: 10px;
     }
 
     .quote{
         font-size: 20px;
         font-weight: 500;
+        padding-left: 10px;
     }
 }
