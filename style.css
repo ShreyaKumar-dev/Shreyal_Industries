@@ -88,6 +88,7 @@ nav.scrolled{
     /* background-color: #f8f9fa; */
     color: #000;
     border: 0.5px solid #000;
+    transition: ease-in-out;
 }
 
 .primary{
@@ -385,6 +386,67 @@ nav.scrolled{
     border-bottom: 1.5px solid #f8f9fa;
 }
 
+/* About Us */
+
+.company-vedio{
+    margin-top: 95px;
+}
+
+.company-vedio p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 11px;
+    color: #000;
+    text-transform: capitalize;
+    margin-top: 10px;
+    text-align: end;
+}
+
+.company-vedio p>a{
+    color: #000;
+    text-decoration: none;
+    border-bottom: 0.5px solid #000;
+}
+
+.company-env{
+    object-fit: cover;
+    z-index: 0;
+    height: 500px;
+    width: 100%;
+}
+
+.company-desc>h1{
+    /* font-family: 'DM Serif Text', serif; */
+    font-family: "Playfair Display", serif;
+    font-size: 3rem;
+}
+
+.company-desc>p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1rem;
+}
+
+.mission-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mission-text>h1{
+    /* font-family: 'DM Serif Text', serif; */
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 6rem;
+    color: #232323;
+}
+
+.mission-text>p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1rem;
+    color: #232323;
+    width: 550px;
+}
+
+/* Media Queries */
+
 @media screen and (max-width:800px){
     .career-pg{
         grid-template-columns: 1fr;
@@ -416,5 +478,22 @@ nav.scrolled{
         font-size: 20px;
         font-weight: 500;
         padding: 0 auto;
+    }
+
+    .outline{
+        font-size: 20px;
+        padding: 0 auto;
+    }
+
+    .company-vedio{
+        object-fit: cover;
+    }
+
+    .mission-text>h1{
+        font-size: 4rem;
+    }
+
+    .mission-text>p{
+        width: auto;
     }
 }
