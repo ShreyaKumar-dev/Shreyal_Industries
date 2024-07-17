@@ -485,10 +485,6 @@ nav.scrolled{
         padding: 0 auto;
     }
 
-    .company-vedio{
-        object-fit: cover;
-    }
-
     .mission-text>h1{
         font-size: 4rem;
     }
