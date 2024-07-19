@@ -39,18 +39,18 @@ nav.scrolled{
 .homepage{
     background-image: url('./asset/hero_bg.jpg');
     background-size: cover; 
-    background-position: top;
+    background-position: center;
     background-repeat: no-repeat;
     height: auto !important;
     container-type: inline-size;
     margin-top: 110px;
+    color: #f8f9fa;
 }
 
 .greet-txt{
     font-family: "Bebas Neue", sans-serif;
     letter-spacing: 1px;
     font-size: 3.5cqi;
-    color: #f8f9fa;
     padding-left: 22px;
 }
 
@@ -59,13 +59,11 @@ nav.scrolled{
     letter-spacing: 1px;
     text-transform: capitalize;
     font-size: 8.5cqi;
-    color: #f8f9fa;
 }
 
 .quote{
     font-family: 'Nunito Sans', sans-serif;
     font-size: 3cqi;
-    color: #f8f9fa;
     text-transform: capitalize;
     letter-spacing: 1px;
     margin: 0;
@@ -504,6 +502,50 @@ nav.scrolled{
     font-size: 1.2rem;
 }
 
+.env-heading{
+    text-transform: capitalize;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2.5rem;
+    letter-spacing: 0.5px;
+}
+
+.reception_area-txt>h3{
+    /* font-family: "Playfair Display", serif; */
+    font-family: 'DM Serif Text', serif;
+    font-size: 2rem;
+    /* font-style: italic; */
+    /* font-weight: bold; */
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.env2{
+    display: grid;
+    grid-template-columns: 800px auto;
+    gap: 40px;
+}
+
+.company_part_2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* gap: 40px; */
+}
+
+.company_part_2>h3{
+    text-transform: capitalize;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2.8rem;
+}
+
+.office_space1{
+    object-fit: cover;
+    object-position: center;
+    height: 500px;
+    image-resolution: high;
+    margin-top: 40px;
+}
+
 /* Media Queries */
 
 @media screen and (max-width:800px){
@@ -562,5 +604,14 @@ nav.scrolled{
     .values-grp{
         grid-template-columns: 1fr;
         gap: 50px;
+    }
+
+    .reception_area{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .env2{
+        grid-template-columns: 1fr;
     }
 }
