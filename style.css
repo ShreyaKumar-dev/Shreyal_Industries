@@ -510,14 +510,14 @@ nav.scrolled{
 
 .reception_area-txt>h3{
     font-family: 'DM Serif Text', serif;
-    font-size: 2.2rem;
+    font-size: 2.8rem;
     text-transform: capitalize;
 }
 
 .env2{
     display: grid;
-    grid-template-columns: 800px auto;
-    gap: 30px;
+    grid-template-columns: 850px auto;
+    gap: 40px;
 }
 
 .company_part_2{
@@ -550,13 +550,34 @@ nav.scrolled{
 
 .env3{
     display: grid;
-    grid-template-columns: auto 800px;
-    gap: 30px;
+    grid-template-columns: 750px auto;
+    gap: 40px;
 }
 
 .company_part_3{
     display: flex;
     flex-direction: column;
+}
+
+.office_space3{
+    object-fit: cover;
+    object-position: center;
+    height: 300px;
+    width: 100%;
+    image-resolution: high;
+}
+
+.meeting-room-txt{
+    font-family: 'DM Serif Text', serif;
+    font-size: 2rem;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+}
+
+.cafeteria-txt{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2rem;
+    letter-spacing: 0.5px;
 }
 
 /* Media Queries */
@@ -619,16 +640,19 @@ nav.scrolled{
         gap: 50px;
     }
 
-    .reception_area{
-        display: flex;
-        flex-direction: column;
-    }
-
     .env2{
         grid-template-columns: 1fr;
     }
 
     .company_part_2{
+        flex-wrap: wrap;
+    }
+
+    .env3{
+        grid-template-columns: 1fr;
+    }
+
+    .company_part_3{
         flex-wrap: wrap;
     }
 }
