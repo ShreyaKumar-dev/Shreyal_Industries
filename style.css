@@ -125,9 +125,9 @@ nav.scrolled{
     font-family: "Playfair Display", serif;
     font-style: italic;
     letter-spacing: 0.5px;
-    color: #000;
     text-transform: capitalize;
     font-weight: bold;
+    font-size: 2.5rem;
 }
 
 .feature-icon-small{
@@ -149,11 +149,21 @@ nav.scrolled{
 
 .heads{
     font-family: "Playfair Display", serif;
-    font-style: italic;
+    /* font-family: 'DM Serif Text', serif; */
+    /* font-style: italic; */
     letter-spacing: 0.5px;
-    color: #000;
     text-transform: capitalize;
     font-weight: bold;
+}
+
+.carousel-caption>h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 4rem;
+    letter-spacing: 1px;
+}
+
+.carousel-caption>p{
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 .product{
@@ -168,8 +178,8 @@ nav.scrolled{
 
 .view-products{
     background: #f8f9fa;
-    color: #000;
     border: 1.5px solid #f8f9fa;
+    letter-spacing: 0.5px;
     /* border-radius: 5px; */
 }
 
@@ -311,6 +321,13 @@ nav.scrolled{
     text-transform: uppercase;
     font-weight: bold;
     font-size: 18px;
+}
+
+.contact-heads{
+    font-family: 'DM Serif Text', serif;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    font-size: 2.5rem;
 }
 
 .contact-item{
@@ -507,13 +524,25 @@ nav.scrolled{
     }
 
     .greet-txt{
-        font-size: 30px;
+        font-size: 35px;
         padding: 0 auto;
     }
 
     .homepage h1{
-        font-size: 65px;
+        font-size: 68px;
         padding: 0 auto;
+    }
+
+    .service-head{
+        font-size: 2rem;
+    }
+
+    .heads{
+        font-size: 2rem;
+    }
+
+    .carousel-caption>h1{
+        font-size: 3.5rem;
     }
 
     .quote{
