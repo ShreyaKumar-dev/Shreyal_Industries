@@ -503,26 +503,21 @@ nav.scrolled{
 }
 
 .env-heading{
-    text-transform: capitalize;
     font-family: "Bebas Neue", sans-serif;
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     letter-spacing: 0.5px;
 }
 
 .reception_area-txt>h3{
-    /* font-family: "Playfair Display", serif; */
     font-family: 'DM Serif Text', serif;
-    font-size: 2rem;
-    /* font-style: italic; */
-    /* font-weight: bold; */
+    font-size: 2.2rem;
     text-transform: capitalize;
-    margin-bottom: 20px;
 }
 
 .env2{
     display: grid;
     grid-template-columns: 800px auto;
-    gap: 40px;
+    gap: 30px;
 }
 
 .company_part_2{
@@ -530,24 +525,38 @@ nav.scrolled{
     flex-direction: column;
 }
 
-.company_part_2>h3{
-    text-transform: capitalize;
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 2.8rem;
-}
-
 .office_space1{
     object-fit: cover;
     object-position: center;
-    height: 400px;
+    height: 450px;
+    width: 100%;
+    image-resolution: high;
+}
+
+.office_space2{
+    object-fit: cover;
+    object-position: center;
+    height: 500px;
     width: 100%;
     image-resolution: high;
 }
 
 .office_area_txt>h3{
     font-family: 'DM Serif Text', serif;
-    font-size: 2rem;
+    font-size: 2.2rem;
     text-transform: capitalize;
+    font-style: italic;
+}
+
+.env3{
+    display: grid;
+    grid-template-columns: auto 800px;
+    gap: 30px;
+}
+
+.company_part_3{
+    display: flex;
+    flex-direction: column;
 }
 
 /* Media Queries */
