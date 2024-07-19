@@ -425,7 +425,7 @@ nav.scrolled{
 .company-env{
     object-fit: cover;
     z-index: 0;
-    height: 600px;
+    height: 500px;
     width: 100%;
 }
 
@@ -528,8 +528,6 @@ nav.scrolled{
 .company_part_2{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    /* gap: 40px; */
 }
 
 .company_part_2>h3{
@@ -541,9 +539,15 @@ nav.scrolled{
 .office_space1{
     object-fit: cover;
     object-position: center;
-    height: 500px;
+    height: 400px;
+    width: 100%;
     image-resolution: high;
-    margin-top: 40px;
+}
+
+.office_area_txt>h3{
+    font-family: 'DM Serif Text', serif;
+    font-size: 2rem;
+    text-transform: capitalize;
 }
 
 /* Media Queries */
@@ -613,5 +617,9 @@ nav.scrolled{
 
     .env2{
         grid-template-columns: 1fr;
+    }
+
+    .company_part_2{
+        flex-wrap: wrap;
     }
 }
